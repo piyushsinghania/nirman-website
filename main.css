@@ -489,3 +489,12 @@ body {
     gap: 50px;
   }
 }
+/* FOOTER LINKS */
+.footer-links {
+  gap: 56px;
+}
+
+.footer-links > img {
+  height: 32px;
+  width: 32px;
+}
