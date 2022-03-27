@@ -1,0 +1,60 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.events-section-heading {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+}
+
+.event {
+  gap: 80px;
+}
+
+.event-name {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.event-description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.prize::before {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 84px;
+  line-height: 96px;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #434343 0%, rgba(36, 36, 36, 0.54) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-left: -40px;
+}
+
+.prize-1st::before {
+  content: "1st";
+}
+
+.prize-2nd::before {
+  content: "2nd";
+}
+
+.prize-3rd::before {
+  content: "3rd";
+}
+
+.perks {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.event-breaker {
+  border-top: 1px dashed rgba(255, 225, 105, 0.6);
+}
