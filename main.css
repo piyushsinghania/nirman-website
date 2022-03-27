@@ -372,6 +372,7 @@ body {
   .prize::before {
     font-size: 56px;
     line-height: 64px;
+    margin-left: -20px;
   }
 }
 @media only screen and (max-width: 576px) {
@@ -381,6 +382,7 @@ body {
   }
   .prize::before {
     font-size: 48px;
+    margin-left: -10px;
   }
 }
 
