@@ -426,3 +426,23 @@ body {
 .accordion-button:not(.collapsed) {
   color: inherit;
 }
+
+@media only screen and (max-width: 992px) {
+  .faq__heading {
+    font-size: 36px;
+    line-height: 48px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .faq__heading {
+    font-size: 32px;
+    line-height: 44px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .faq__heading {
+    margin: 0 auto;
+    font-size: 24px;
+    line-height: 36px;
+  }
+}
