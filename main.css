@@ -338,6 +338,38 @@ body {
   border-top: 1px dashed rgba(255, 225, 105, 0.6);
 }
 
+.hackathon-themes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.theme-heading {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.themes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.theme-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+  background: #FFE169;
+  width: 30%;
+  margin: 20px 10px;
+  color: black;
+}
+
 @media only screen and (max-width: 1200px) {
 
 }
