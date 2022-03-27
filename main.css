@@ -245,7 +245,11 @@ body {
   }
   
   .hero-trophy {
-    display: none;
+    height: 120px;
+    width: 120px;
+    right: 35%;
+    top: 400px;
+    transform: rotate(-13deg);
   }
 
   .register-btn {
