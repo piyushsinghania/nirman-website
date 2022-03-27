@@ -364,14 +364,25 @@ body {
 }
 
 .theme-card {
+  position: relative;
+  padding-left: 3.5em;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 24px;
   background: #FFE169;
   width: 30%;
-  margin: 20px 10px;
   color: black;
+  z-index: 10;
+}
+
+.theme-card:after {
+  content: "";
+  position: absolute;
+  inset: 0 0 0 0;
+  transform: translate(2%, 2.5%);
+  border: 3px solid white;
+  z-index: -1;
 }
 
 .theme-card-heading {
