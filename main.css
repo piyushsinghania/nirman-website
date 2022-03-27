@@ -1,6 +1,100 @@
 body {
   font-family: 'Poppins', sans-serif;
+  font-style: normal;
 }
+
+.background-primary {
+  background: #FFE169;
+}
+
+/* HERO SECTION */
+.hero-section {
+  background: #FFE169;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+
+.hero-heading {
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 112px;
+  margin-top: 100px;
+}
+
+.hero-subheading {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.register-btn {
+  border: none;
+  padding: 12px 28px;
+  width: 176px;
+  height: 52px;
+  background: #000000;
+  color: white;
+}
+
+.days {
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #FFFFFF 0%, #FFF3C4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.abs {
+  position: absolute;
+}
+
+.hero-dart {
+  width: 128.28px;
+  height: 128.28px;
+  left: 200px;
+  top: 150px;
+  transform: rotate(158.58deg);
+}
+
+.hero-trophy {
+  width: 168.02px;
+  height: 168.02px;
+  left: 1107.1px;
+  top: 250px;
+  transform: rotate(13.46deg);
+}
+
+.hero-shape-1 {
+  width: 117.02px;
+  height: 117.02px;
+  left: calc(50% - 117.02px/2 - 429.79px);
+  top: calc(50% - 117.02px/2 - 4.99px);
+  border-radius: 11.7018px;
+  transform: rotate(9.19deg);
+}
+
+.hero-shape-2 {
+  width: 44.75px;
+  height: 44.75px;
+  left: calc(50% - 44.75px/2 - 478.47px);
+  top: calc(50% - 44.75px/2 - 206.43px);
+
+  border-radius: 4.47451px;
+  transform: rotate(56.84deg);
+}
+
+/* EVENTS SECTION */
 
 .events-section-heading {
   font-weight: 700;
@@ -25,7 +119,6 @@ body {
 }
 
 .prize::before {
-  font-style: normal;
   font-weight: 900;
   font-size: 84px;
   line-height: 96px;
@@ -68,7 +161,6 @@ body {
   margin-top: 3em;
 }
 .faq__heading {
-  font-style: normal;
   font-weight: 700;
   font-size: 48px;
   line-height: 56px;
