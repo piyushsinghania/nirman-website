@@ -330,12 +330,58 @@ body {
 
 .perks {
   font-weight: 400;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .event-breaker {
   border-top: 1px dashed rgba(255, 225, 105, 0.6);
+}
+
+@media only screen and (max-width: 1200px) {
+
+}
+@media only screen and (max-width: 992px) {
+  .events-section-heading {
+    font-size: 36px;
+    line-height: 48px;
+  }
+  .event-name {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .prize::before {
+    font-size: 64px;
+    line-height: 72px;
+    margin-left: -30px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .events-section-heading {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .event-name {
+    font-size: 28px;
+    line-height: 40px;
+  }
+  .event-description {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .prize::before {
+    font-size: 56px;
+    line-height: 64px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .event-name {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .prize::before {
+    font-size: 48px;
+  }
 }
 
 /* FAQ SECTION */
