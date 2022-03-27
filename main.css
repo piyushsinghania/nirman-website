@@ -58,3 +58,45 @@ body {
 .event-breaker {
   border-top: 1px dashed rgba(255, 225, 105, 0.6);
 }
+
+/* FAQ SECTION */
+.faq {
+  background: #FFE169;
+}
+.faq__container {
+  max-width: 900px;
+  margin-top: 3em;
+}
+.faq__heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+}
+.accordion-button {
+  font-size:  1.125rem;
+  font-weight: 600;
+  color: rgb(70, 70, 70);
+}
+.accordion-item {
+  border: none;
+  font-size: 1rem;
+  background: #FFE169;
+}
+.accordion-button:focus {
+  box-shadow: none;
+  background: none;
+}
+.accordion-body {
+  padding: 0 1.25rem;
+  width: 80%;
+}
+
+.accordion-flush .accordion-item .accordion-button {
+  border-radius: 0;
+  background: #FFE169;
+}
+
+.accordion-button:not(.collapsed) {
+  color: inherit;
+}
