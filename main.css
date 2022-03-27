@@ -91,7 +91,26 @@ body {
   top: calc(50% - 44.75px/2 - 206.43px);
 
   border-radius: 4.47451px;
-  transform: rotate(56.84deg);
+  transform: rotate(20deg);
+}
+
+.hero-shape-3 {
+  width: 134px;
+  height: 134px;
+  left: calc(50% - 134px/2 + 551px);
+  top: calc(50% - 134px/2 - 112.5px);
+
+  border-radius: 13.4px;
+}
+
+.hero-shape-4 {
+  width: 60.13px;
+  height: 60.13px;
+  left: calc(50% - 60.13px/2 + 430.06px);
+  top: calc(50% - 60.13px/2 - 99.56px);
+
+  border-radius: 6.01262px;
+  transform: matrix(0.81, -0.58, 0.58, 0.81, 0, 0);
 }
 
 /* EVENTS SECTION */
