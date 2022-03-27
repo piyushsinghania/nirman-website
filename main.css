@@ -304,7 +304,14 @@ body {
   line-height: 28px;
 }
 
+.prize {
+  position: relative;
+  z-index: 10;
+}
+
 .prize::before {
+  position: absolute;
+  bottom: 70%;
   font-weight: 900;
   font-size: 84px;
   line-height: 96px;
@@ -314,6 +321,7 @@ body {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   margin-left: -40px;
+  z-index: -1;
 }
 
 .prize-1st::before {
