@@ -446,3 +446,44 @@ body {
     line-height: 36px;
   }
 }
+
+/* SPONSERS SECTION */
+.sponsers {
+  background: #FFE169;
+}
+.sponsers__container {
+  box-sizing: border-box;
+  padding: 20px 10px;
+  max-width: 1200px;
+  width: 100%;
+  margin: 32px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.sponser {
+  margin: 2px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width : 992px) {
+  .sponser {
+    width: 30%;
+    margin: 20px auto;
+  }
+}
+
+@media only screen and (max-width : 768px) {
+  .sponser{
+    width: 100%;
+  }
+  .sponsers__container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+  }
+}
