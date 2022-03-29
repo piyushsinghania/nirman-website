@@ -607,6 +607,7 @@ body {
 
   .register-heading {
     font-size: 28px;
+    text-align: center;
     margin: 0 auto;
   }
 }
@@ -620,12 +621,12 @@ body {
   }
 
   .register-heading {
-    font-size: 24px;
+    font-size: 22px;
     margin: 0 auto;
   }
 
   .footer-register-btn {
-    padding: 8px 24px;
+    padding: 6px 22px;
     width: 144px;
     height: 40px;
   }
