@@ -623,13 +623,14 @@ body {
   .sponser-subheading {
     margin: 0 auto;
     text-align: center;
+    width: 90%;
   }
 }
 
 @media only screen and (max-width : 576px) {
   .sponser-container {
     width: 90%;
-    height: 250px;
+    height: 300px;
     flex-direction: column;
     justify-content: space-evenly;
   }
@@ -651,7 +652,17 @@ body {
   gap: 56px;
 }
 
-.footer-links > img {
+.footer-links > a > img {
   height: 32px;
   width: 32px;
+}
+
+@media only screen and (max-width : 768px) {
+  .footer-links {
+    gap: 32px;
+  }
+  .footer-links > a > img {
+    height: 28px;
+    width: 28px;
+  }
 }
