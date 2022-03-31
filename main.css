@@ -39,7 +39,7 @@ body {
   padding: 12px 28px;
   width: 176px;
   height: 52px;
-  background: #000000;
+  background: #212529;
   color: white;
 }
 
@@ -496,6 +496,7 @@ body {
 
 .accordion-button:not(.collapsed) {
   color: inherit;
+  box-shadow: none
 }
 
 @media only screen and (max-width: 992px) {
@@ -561,36 +562,43 @@ body {
   }
 }
 
-/* Register Section */
-.register-container {
+/* Sponser Section */
+.sponser-container {
   display: flex;
   align-items: center;
   justify-content: space-around;
   color: #FFE169;
   width: 75%;
   height: 320px;
-  background: #000000;
+  background: #212529;
+  padding: 0 24px;
 }
 
-.footer-register-btn {
+.footer-sponser-btn {
   padding: 12px 28px;
   width: 176px;
   height: 52px;
   background: #FFE169;
-  color: #000000;
+  color: #212529;
+}
+
+@media only screen and (max-width : 1200px) {
+  .sponser-subheading {
+    width: 80%;
+  }
 }
 
 @media only screen and (max-width : 992px) {
-  .register-container {
+  .sponser-container {
     width: 85%;
     height: 320px;
   }
 
-  .register-heading {
+  .sponser-heading {
     font-size: 32px;
   }
 
-  .footer-register-btn {
+  .footer-sponser-btn {
     padding: 10px 24px;
     width: 160px;
     height: 48px;
@@ -598,34 +606,39 @@ body {
 }
 
 @media only screen and (max-width : 768px) {
-  .register-container {
+  .sponser-container {
     width: 90%;
     height: 250px;
     flex-direction: column;
     justify-content: space-evenly;
   }
 
-  .register-heading {
+  .sponser-heading {
     font-size: 28px;
     text-align: center;
     margin: 0 auto;
   }
+
+  .sponser-subheading {
+    margin: 0 auto;
+    text-align: center;
+  }
 }
 
 @media only screen and (max-width : 576px) {
-  .register-container {
+  .sponser-container {
     width: 90%;
     height: 250px;
     flex-direction: column;
     justify-content: space-evenly;
   }
 
-  .register-heading {
+  .sponser-heading {
     font-size: 22px;
     margin: 0 auto;
   }
 
-  .footer-register-btn {
+  .footer-sponser-btn {
     padding: 6px 22px;
     width: 144px;
     height: 40px;
