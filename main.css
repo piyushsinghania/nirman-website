@@ -9,6 +9,13 @@ body {
 
 /* HERO SECTION */
 
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
 .hero-section {
   background: #FFE169;
 }
