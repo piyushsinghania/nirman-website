@@ -416,7 +416,7 @@ body {
   width: 30%;
   color: black;
   z-index: 10;
-  height: 260px;
+  height: 280px;
 }
 
 .theme-card:after {
@@ -451,7 +451,10 @@ body {
 }
 
 @media only screen and (max-width: 1200px) {
-
+  .theme-card {
+    width: 31%;
+    height: 320px;
+  }
 }
 @media only screen and (max-width: 992px) {
   .events-section-heading {
@@ -469,6 +472,7 @@ body {
   }
   .theme-card {
     width: 46%;
+    height: 280px;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -494,7 +498,7 @@ body {
   }
   .theme-card {
     width: 92%;
-    height: 275px;
+    height: 220px;
   }
 }
 @media only screen and (max-width: 576px) {
@@ -507,7 +511,7 @@ body {
     margin-left: -10px;
   }
   .theme-card {
-    height: 300px;
+    height: 320px;
   }
 }
 
