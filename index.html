@@ -6,21 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nirman</title>
 
-    <!--Chatbot --- Drone-->
-    <script>
-      window.watsonAssistantChatOptions = {
-          integrationID: "cc147ff9-c60d-4992-823e-db160b7049d8", // The ID of this integration.
-          region: "us-south", // The region your integration is hosted in.
-          serviceInstanceID: "7efa1dc7-3d55-4169-ab6b-495ef9793cea", // The ID of your service instance.
-          onLoad: function(instance) { instance.render(); }
-        };
-      setTimeout(function(){
-        const t=document.createElement('script');
-        t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js"
-        document.head.appendChild(t);
-      });
-    </script>
-
     <!-- bootstrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -389,7 +374,7 @@
                 aria-expanded="false"
                 aria-controls="flush-collapseTwo"
               >
-                Can I participate in only one event?
+                Can I participate in all of these events?
               </button>
             </h6>
             <div
@@ -399,7 +384,7 @@
               data-bs-parent="#accordionFlushExample"
             >
               <div class="accordion-body">
-                Yes, you can participate in any of these events or all of them! These events include participation from various skill sets and ranges. Participating in teams of 3-4 is a requirement.
+                Yes, you can participate in any of these events or all of them! If you want to participate in only one of these events, you are free to do so. These events include participation from various skill sets and ranges. Participating in teams of 3-4 is a requirement.
               </div>
             </div>
           </div>
@@ -467,6 +452,21 @@
         </a>
       </div>
     </section>
+
+    <!--Chatbot --- Drone-->
+    <script>
+      window.watsonAssistantChatOptions = {
+          integrationID: "cc147ff9-c60d-4992-823e-db160b7049d8", // The ID of this integration.
+          region: "us-south", // The region your integration is hosted in.
+          serviceInstanceID: "7efa1dc7-3d55-4169-ab6b-495ef9793cea", // The ID of your service instance.
+          onLoad: function(instance) { instance.render(); }
+        };
+      setTimeout(function(){
+        const t=document.createElement('script');
+        t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js"
+        document.head.appendChild(t);
+      });
+    </script>
 
     <!-- Footer Section -->
     <footer class="background-primary py-5">
