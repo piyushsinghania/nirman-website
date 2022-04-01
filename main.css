@@ -517,12 +517,18 @@ body {
     font-size: 32px;
     line-height: 44px;
   }
+  .accordion-body {
+    width: 90%;
+  }
 }
 @media only screen and (max-width: 576px) {
   .faq__heading {
     margin: 0 auto;
     font-size: 24px;
     line-height: 36px;
+  }
+  .accordion-body {
+    width: 95%;
   }
 }
 
