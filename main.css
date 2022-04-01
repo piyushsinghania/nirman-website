@@ -572,6 +572,9 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
+  .timeline-card {
+    margin: 12px auto;
+  }
   .timeline-card:after {
     transform: translate(1%, 4%);
   }
