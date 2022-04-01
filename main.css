@@ -428,10 +428,20 @@ body {
   border-bottom: 3px solid white;
 }
 
+.theme-card-head {
+  margin-bottom: 16px;
+}
+
 .theme-card-heading {
   font-weight: 600;
   font-size: 24px;
   line-height: 36px;
+  margin: 0;
+}
+
+.theme-card-icon {
+  height: 40px;
+  width: 40px;
 }
 
 .theme-card > p {
@@ -479,8 +489,12 @@ body {
     line-height: 64px;
     margin-left: -20px;
   }
+  .themes {
+    gap: 2.5rem;
+  }
   .theme-card {
     width: 92%;
+    height: 275px;
   }
 }
 @media only screen and (max-width: 576px) {
@@ -491,6 +505,9 @@ body {
   .prize::before {
     font-size: 48px;
     margin-left: -10px;
+  }
+  .theme-card {
+    height: 300px;
   }
 }
 
