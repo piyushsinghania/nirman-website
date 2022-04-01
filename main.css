@@ -67,6 +67,12 @@ body {
   text-fill-color: transparent;
 }
 
+.sps {
+  font-size: 18px;
+  margin-top: -15px;
+  margin-right: 20px;
+}
+
 .abs {
   position: absolute;
 }
@@ -244,6 +250,10 @@ body {
     height: 40px;
     right: 140px;
     top: 130px;
+  }
+  .sps {
+    font-size: 16px;
+    margin-right: 10px;
   }
 }
 @media only screen and (max-width: 576px) {
