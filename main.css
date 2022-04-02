@@ -7,6 +7,28 @@ body {
   background: #FFE169;
 }
 
+/* NAV SECTION */
+
+@media screen and (min-width: 992px) {
+  nav {
+    height: 72px !important;
+  }
+}
+
+.nav-link {
+  color: black !important;
+}
+
+.nav-btn {
+  padding: .5rem 1rem !important;
+  background: #000;
+  color: white !important;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+}
+
+
 /* HERO SECTION */
 
 .navbar-toggler:focus,
