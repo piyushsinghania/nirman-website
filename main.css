@@ -817,3 +817,12 @@ body {
     width: 28px;
   }
 }
+@media only screen and (max-width : 768px) {
+  .footer-links {
+    gap: 24px;
+  }
+  .footer-links > a > img {
+    height: 24px;
+    width: 24px;
+  }
+}
