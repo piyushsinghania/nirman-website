@@ -43,6 +43,8 @@ body {
   font-weight: 500;
   font-size: 24px;
   line-height: 36px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .register-btn {
@@ -65,6 +67,12 @@ body {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-fill-color: transparent;
+}
+
+.sps {
+  font-size: 18px;
+  margin-top: -15px;
+  margin-right: 20px;
 }
 
 .abs {
@@ -245,6 +253,10 @@ body {
     right: 140px;
     top: 130px;
   }
+  .sps {
+    font-size: 16px;
+    margin-right: 10px;
+  }
 }
 @media only screen and (max-width: 576px) {
   .hero-heading-logo {
@@ -333,6 +345,17 @@ body {
   line-height: 28px;
 }
 
+.event-register-btn {
+  background: #FFE169;
+  border: none;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.12em;
+}
+
 .prize::before {
   font-weight: 900;
   font-size: 84px;
@@ -404,7 +427,7 @@ body {
   width: 30%;
   color: black;
   z-index: 10;
-  height: 260px;
+  height: 280px;
 }
 
 .theme-card:after {
@@ -416,10 +439,20 @@ body {
   border-bottom: 3px solid white;
 }
 
+.theme-card-head {
+  margin-bottom: 16px;
+}
+
 .theme-card-heading {
   font-weight: 600;
   font-size: 24px;
   line-height: 36px;
+  margin: 0;
+}
+
+.theme-card-icon {
+  height: 40px;
+  width: 40px;
 }
 
 .theme-card > p {
@@ -429,7 +462,10 @@ body {
 }
 
 @media only screen and (max-width: 1200px) {
-
+  .theme-card {
+    width: 31%;
+    height: 320px;
+  }
 }
 @media only screen and (max-width: 992px) {
   .events-section-heading {
@@ -447,6 +483,7 @@ body {
   }
   .theme-card {
     width: 46%;
+    height: 280px;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -467,8 +504,12 @@ body {
     line-height: 64px;
     margin-left: -20px;
   }
+  .themes {
+    gap: 2.5rem;
+  }
   .theme-card {
     width: 92%;
+    height: 220px;
   }
 }
 @media only screen and (max-width: 576px) {
@@ -480,9 +521,16 @@ body {
     font-size: 48px;
     margin-left: -10px;
   }
+  .theme-card {
+    height: 320px;
+  }
 }
 
 /* TIMELINE SECTION */
+.card {
+  border-radius: 0;
+}
+
 .timeline-heading {
   font-weight: 700;
   font-size: 48px;
@@ -512,7 +560,7 @@ body {
   content: "";
   position: absolute;
   inset: 0 0 0 0;
-  transform: translate(1%, 3%);
+  transform: translate(8px, 8px);
   border-right: 3px solid #FFE169;
   border-bottom: 3px solid #FFE169;
 }
@@ -535,6 +583,9 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
+  .timeline-card {
+    margin: 12px auto;
+  }
   .timeline-card:after {
     transform: translate(1%, 4%);
   }
