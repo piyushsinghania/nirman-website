@@ -52,9 +52,9 @@ nav ul li a:hover {
 }
 nav ul li a:hover:after {
   z-index: -10;
-  animation: fill 0.7s forwards;
-  -webkit-animation: fill 0.7s forwards;
-  -moz-animation: fill 0.7s forwards;
+  animation: fill 0.5s forwards;
+  -webkit-animation: fill 0.5s forwards;
+  -moz-animation: fill 0.5s forwards;
   opacity: 1;
 }
 
