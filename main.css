@@ -345,6 +345,17 @@ body {
   line-height: 28px;
 }
 
+.event-register-btn {
+  background: #FFE169;
+  border: none;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.12em;
+}
+
 .prize::before {
   font-weight: 900;
   font-size: 84px;
