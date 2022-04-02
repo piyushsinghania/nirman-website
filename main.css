@@ -7,6 +7,19 @@ body {
   background: #FFE169;
 }
 
+/* NAV SECTION */
+
+@media screen and (min-width: 992px) {
+  nav {
+    height: 72px !important;
+  }
+}
+
+.nav-link {
+  color: black !important;
+}
+
+
 /* HERO SECTION */
 
 .navbar-toggler:focus,
@@ -54,6 +67,11 @@ body {
   height: 52px;
   background: #212529;
   color: white;
+  transition: 300ms ease-in-out;
+}
+
+.register-btn:hover {
+  transform: scale(1.1);  
 }
 
 .days {
@@ -350,10 +368,16 @@ body {
   border: none;
   box-sizing: border-box;
   padding: 10px 20px;
-  border-radius: 20px;
   font-size: 14px;
+  font-weight: 500;
   text-align: center;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.07em;
+  transition: 250ms ease-in-out;
+}
+
+.event-register-btn:hover {
+  box-shadow: 2px 2px 4px rgba(255, 225, 105, 0.4);
+  transform: scale(1.05);
 }
 
 .prize::before {
@@ -815,5 +839,14 @@ body {
   .footer-links > a > img {
     height: 28px;
     width: 28px;
+  }
+}
+@media only screen and (max-width : 768px) {
+  .footer-links {
+    gap: 24px;
+  }
+  .footer-links > a > img {
+    height: 24px;
+    width: 24px;
   }
 }
