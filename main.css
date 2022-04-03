@@ -462,6 +462,11 @@ nav ul li a:hover:after {
   content: "3rd";
 }
 
+.rupee {
+  margin-right: 5px;
+  font-family: DejaVu Sans;
+}
+
 .perks {
   font-weight: 400;
   font-size: 16px;
@@ -539,7 +544,7 @@ nav ul li a:hover:after {
 
 .theme-card > p {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 21px;
 }
 
