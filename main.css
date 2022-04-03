@@ -462,6 +462,10 @@ nav ul li a:hover:after {
   content: "3rd";
 }
 
+.rupee {
+  margin-right: 5px;
+}
+
 .perks {
   font-weight: 400;
   font-size: 16px;
