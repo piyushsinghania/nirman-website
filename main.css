@@ -772,7 +772,6 @@ nav ul li a:hover:after {
 /* OUR SPONSERS SECTION */
 .sponsers {
   background: #FFE169;
-  display: none;
 }
 .sponsers__container {
   box-sizing: border-box;
