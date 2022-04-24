@@ -773,6 +773,10 @@ nav ul li a:hover:after {
 .sponsers {
   background: #FFE169;
 }
+.sponser-heading {
+  font-size: 24px;
+  line-height: 150%;
+}
 .sponsers__container {
   box-sizing: border-box;
   padding: 20px 10px;
@@ -783,6 +787,9 @@ nav ul li a:hover:after {
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
+}
+.poweredby {
+  max-width: 600px;
 }
 .sponser {
   margin: 2px auto;
@@ -803,6 +810,9 @@ nav ul li a:hover:after {
     width: 100%;
     margin: 10 auto;
 
+  }
+  .sponser-heading {
+    font-size: 16px;
   }
   .sponsers__container {
     flex-direction: column;
